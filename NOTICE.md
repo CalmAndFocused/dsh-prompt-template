@@ -1,5 +1,14 @@
 # Notices
 
+## License
+
+This package is licensed under the **GNU Affero General Public License v3.0**
+(AGPL-3.0-only). See `LICENSE` for the full text.
+
+The license is chosen to match the upstream work the optimization templates
+derive from (below), rather than asserting a more permissive license over that
+derived text.
+
 ## Third-party attribution
 
 The optimization templates in `templates.js` are adapted from
@@ -16,13 +25,12 @@ Adapted from that project:
 - the structural skeleton of the role prompt and the iteration guidance.
 
 The wording in `templates.js` is a condensed rewrite rather than a verbatim
-copy, and this plugin's own code is original. Because the template text derives
-from an AGPL-3.0 work, review that license before redistributing this package
-where its conditions would apply. To avoid the question entirely, replace
-`templates.js` with templates of your own.
+copy. This plugin's own code (the Host and Client halves, the configuration
+surface, the agent tool, and the tests) is original work by the package author.
 
-## This package
+## Using this plugin
 
-Licensed under the Apache License, Version 2.0
-(http://www.apache.org/licenses/LICENSE-2.0). If your release workflow expects
-a `LICENSE` file, add the full text before publishing.
+Installing and using the plugin inside DeepSeek Harness is ordinary use and is
+not restricted. The AGPL terms matter when you **redistribute** it, or **run a
+modified version as a network service** — the usual AGPL obligation: share the
+source of your changes under the same license.

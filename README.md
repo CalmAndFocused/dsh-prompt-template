@@ -48,3 +48,11 @@ DeepSeek Harness 0.2.1-rc.2 及以上。无运行时依赖（Host 侧只用到�
 
 架构：Host 半（`index.js`）提供一条 SSE 路由与一条配置路由，并注册 `optimize_prompt` 工具；Client 半（`client.js`）在 `conversation.input.right`、`conversation.input.overlay`、`settings.general.item` 各注册一个入口，共享一份按会话隔离的状态。
 
+## 许可
+
+**AGPL-3.0-only**，全文见 [`LICENSE`](LICENSE)。
+
+选这个许可是为了与模板来源一致：`templates.js` 的改写结构改编自 AGPL-3.0 的 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)，署名与改编范围见 [`NOTICE.md`](NOTICE.md)。插件自身的代码（Host/Client、配置界面、agent 工具、自测）是原创。
+
+日常在 DSH 里使用不受限制；需要留意的是**再分发**，以及**把修改版作为网络服务运行**——那是 AGPL 的常规义务。
+

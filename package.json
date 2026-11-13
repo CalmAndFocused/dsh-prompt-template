@@ -31,7 +31,8 @@
     "docs/*.md",
     "icon.svg",
     "README.md",
-    "NOTICE.md"
+    "NOTICE.md",
+    "LICENSE"
   ],
   "engines": {
     "node": "^22.19.0 || >=24.0.0",
@@ -71,5 +72,5 @@
     "prompt-template",
     "prompt-engineering"
   ],
-  "license": "Apache-2.0"
+  "license": "AGPL-3.0-only"
 }

@@ -105,6 +105,18 @@ npm publish --otp=<6 位验证码>      # 不带 --otp 时 npm 会交互式提�
 
 本仓库已在 `locale/en.json`、`locale/zh.json` 里分别指向 `docs/store-detail.en.md`、`docs/store-detail.zh.md`。
 
-## 许可提醒
+## 许可
 
-`templates.js` 的模板改编自 AGPL-3.0 的 prompt-optimizer。公开发布前请确认该许可对你的分发方式（尤其是通过 npm 再分发）意味着什么；详见 `NOTICE.md`。想完全规避这个问题，就用自己写的模板替换 `templates.js`。
+本仓库整体许可为 **AGPL-3.0-only**，与模板来源一致：
+
+- `package.json` 的 `license` 字段是 `AGPL-3.0-only`；
+- 仓库根应有 `LICENSE` 文件（AGPL-3.0 全文）；
+- `templates.js` 的模板改编自 AGPL-3.0 的 prompt-optimizer，署名与范围见 `NOTICE.md`。
+
+选择理由：与其对源自 AGPL 的文本声明更宽松的许可，不如整体采用同一许可，
+避免「声明与实际来源不一致」这类在评审中被质疑的问题。
+
+**对使用者的影响**：装在 DSH 里日常使用不受限；需要留意的是**再分发**，
+以及**把修改版作为网络服务运行**——那是 AGPL 的常规义务：以同一许可公开你的改动。
+
+想不用 AGPL，就把 `templates.js` 换成完全自写的模板，再改回宽松许可。
