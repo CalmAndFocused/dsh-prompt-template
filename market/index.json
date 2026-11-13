@@ -33,9 +33,9 @@
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlByb21wdCBvcHRpbWl6ZXIiPgogIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjgiIGZpbGw9IiMxZjZmZWIiIC8+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMjIuNSA3LjVsMS40IDIuOCAyLjggMS40LTIuOCAxLjQtMS40IDIuOC0xLjQtMi44LTIuOC0xLjQgMi44LTEuNHoiIC8+CiAgICA8cGF0aCBkPSJNMTEgMTQuNWw2LjQgNi40IiAvPgogICAgPHBhdGggZD0iTTguNSAyNC41bDMuNC0zLjQiIC8+CiAgPC9nPgo8L3N2Zz4K",
       "author": "seon0616",
-      "homepage": "https://github.com/seon0616/dsh-prompt-template#readme",
+      "homepage": "https://github.com/CalmAndFocused/dsh-prompt-template#readme",
       "repository": {
-        "url": "git+https://github.com/seon0616/dsh-prompt-template.git"
+        "url": "git+https://github.com/CalmAndFocused/dsh-prompt-template.git"
       },
       "metadata": {
         "category": "tools",

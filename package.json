@@ -8,11 +8,11 @@
   "author": "seon0616",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seon0616/dsh-prompt-template.git"
+    "url": "git+https://github.com/CalmAndFocused/dsh-prompt-template.git"
   },
-  "homepage": "https://github.com/seon0616/dsh-prompt-template#readme",
+  "homepage": "https://github.com/CalmAndFocused/dsh-prompt-template#readme",
   "bugs": {
-    "url": "https://github.com/seon0616/dsh-prompt-template/issues"
+    "url": "https://github.com/CalmAndFocused/dsh-prompt-template/issues"
   },
   "type": "module",
   "main": "./index.js",

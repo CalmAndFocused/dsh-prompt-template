@@ -17,10 +17,10 @@ https://awesome-dsh-plugin.com/plugins.json
 
 ## 提交形式
 
-新增**一个文件**：`data/plugins/seon0616__dsh-prompt-template.yml`
+新增**一个文件**：`data/plugins/CalmAndFocused__dsh-prompt-template.yml`
 （命名规则 `<owner>__<repo>.yml`）
 
-内容见本仓库的 [`store-submission/seon0616__dsh-prompt-template.yml`](../store-submission/seon0616__dsh-prompt-template.yml)。
+内容见本仓库的 [`store-submission/CalmAndFocused__dsh-prompt-template.yml`](../store-submission/CalmAndFocused__dsh-prompt-template.yml)。
 
 关键字段：
 
@@ -61,7 +61,7 @@ https://awesome-dsh-plugin.com/plugins.json
 
 发布 npm 包对收录**不是必需**的。但如果要关联（市场才能显示下载量），
 **npm 包的 `package.json` 里 `repository` 必须指回被收录的那个仓库**，否则两者不会关联。
-本仓库的 `repository` 已指向 `https://github.com/seon0616/dsh-prompt-template`。
+本仓库的 `repository` 已指向 `https://github.com/CalmAndFocused/dsh-prompt-template`。
 
 ## 一个必须记住的坑：`engines.dsh` 的预发布匹配
 
@@ -81,7 +81,7 @@ https://awesome-dsh-plugin.com/plugins.json
 ## 完整操作顺序
 
 ```powershell
-# 1. 建 GitHub 仓库 seon0616/dsh-prompt-template，把本目录推上去
+# 1. 建 GitHub 仓库 CalmAndFocused/dsh-prompt-template，把本目录推上去
 #    并加 `dsh-plugin` topic
 
 # 2. 等仓库创建满 1 天（CI 硬条件）
@@ -89,10 +89,10 @@ https://awesome-dsh-plugin.com/plugins.json
 # 3. fork awesome-dsh-plugin/awesome-dsh-plugin
 
 # 4. 在 fork 里新增（不是修改 README）
-#    data/plugins/seon0616__dsh-prompt-template.yml
-#    内容复制 store-submission/seon0616__dsh-prompt-template.yml
+#    data/plugins/CalmAndFocused__dsh-prompt-template.yml
+#    内容复制 store-submission/CalmAndFocused__dsh-prompt-template.yml
 
-# 5. 提 PR，标题例如：Add seon0616/dsh-prompt-template (prompt template rewriter)
+# 5. 提 PR，标题例如：Add CalmAndFocused/dsh-prompt-template (prompt template rewriter)
 
 # 6. 等 CI 与人工评审；被打回会以 PR 评论指出要改什么
 #    改了就往同一分支推，然后留一条评论说明，无需重开 PR

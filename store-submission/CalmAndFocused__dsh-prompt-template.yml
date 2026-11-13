@@ -1,5 +1,5 @@
-url: https://github.com/seon0616/dsh-prompt-template
-name: seon0616/dsh-prompt-template
+url: https://github.com/CalmAndFocused/dsh-prompt-template
+name: CalmAndFocused/dsh-prompt-template
 category: ui
 description:
   en: 'Rewrites the composer draft in three modes (system prompt, user prompt, iteration), keeps {{variable}} placeholders verbatim, and exposes the same operation as the optimize_prompt agent tool.'
