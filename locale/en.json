@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "Prompt optimizer",
+    "description": "Rewrites a composer draft into a structured prompt and puts the result back in the editor.",
+    "detail": "docs/store-detail.en.md"
+  },
+  "trigger": "Optimize prompt"
+}

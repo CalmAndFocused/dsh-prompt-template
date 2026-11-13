@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "title": {
+    "en": "My DSH plugins",
+    "zh": "我的 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins published by this author.",
+    "zh": "本作者发布的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "tools": {
+        "title": {
+          "en": "Tools & Capabilities",
+          "zh": "工具与能力"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@seon0616/dsh-prompt-template",
+      "title": {
+        "en": "Prompt optimizer",
+        "zh": "提示词优化器"
+      },
+      "description": {
+        "en": "Rewrite the prompt you are drafting without leaving the composer: system prompt, user prompt, or iterate on an existing one.",
+        "zh": "在输入框里直接改写提示词：系统提示词、用户提示词，或在现有提示词上迭代。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlByb21wdCBvcHRpbWl6ZXIiPgogIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjgiIGZpbGw9IiMxZjZmZWIiIC8+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMjIuNSA3LjVsMS40IDIuOCAyLjggMS40LTIuOCAxLjQtMS40IDIuOC0xLjQtMi44LTIuOC0xLjQgMi44LTEuNHoiIC8+CiAgICA8cGF0aCBkPSJNMTEgMTQuNWw2LjQgNi40IiAvPgogICAgPHBhdGggZD0iTTguNSAyNC41bDMuNC0zLjQiIC8+CiAgPC9nPgo8L3N2Zz4K",
+      "author": "seon0616",
+      "homepage": "https://github.com/seon0616/dsh-prompt-template#readme",
+      "repository": {
+        "url": "git+https://github.com/seon0616/dsh-prompt-template.git"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "prompt",
+          "prompt-template",
+          "prompt-engineering"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 0,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0-0 || >=0.2.2-rc.1 <0.3.0-0 || >=0.3.0-0 <0.4.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}

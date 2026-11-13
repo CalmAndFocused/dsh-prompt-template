@@ -1,0 +1,8 @@
+# Bundle patch: one Host row loads this package's main entry (the Host half);
+# the `dsh.client` declaration in package.json makes the Web app load
+# ./client.js as the browser half of the same row.
+# The row `name` must be this package's exact npm specifier, and the Client
+# bundle id in client.js must equal it too.
+- insert:
+    - id: prompt-template
+      name: '@seon0616/dsh-prompt-template'

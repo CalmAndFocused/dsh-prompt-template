@@ -1,0 +1,75 @@
+{
+  "name": "@seon0616/dsh-prompt-template",
+  "version": "0.2.1",
+  "description": "Prompt optimization inside the composer: restructure a draft into a system prompt, clarify a user prompt, or iterate on an existing one, following the prompt-optimizer template principle.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "seon0616",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seon0616/dsh-prompt-template.git"
+  },
+  "homepage": "https://github.com/seon0616/dsh-prompt-template#readme",
+  "bugs": {
+    "url": "https://github.com/seon0616/dsh-prompt-template/issues"
+  },
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "templates.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs/*.md",
+    "icon.svg",
+    "README.md",
+    "NOTICE.md"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0 || >=0.2.2-rc.1 <0.3.0-0 || >=0.3.0-0 <0.4.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": ">=3.18.4 <4"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/schemastery": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "check:templates": "node scripts/check-templates.mjs",
+    "make-index": "node scripts/make-index.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "prompt",
+    "prompt-template",
+    "prompt-engineering"
+  ],
+  "license": "Apache-2.0"
+}

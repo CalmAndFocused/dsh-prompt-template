@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "提示词优化器",
+    "description": "把输入框里的草稿重写为结构化的提示词，并把结果写回编辑器。",
+    "detail": "docs/store-detail.zh.md"
+  },
+  "trigger": "提示词优化"
+}
