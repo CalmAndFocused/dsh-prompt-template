@@ -44,6 +44,7 @@ DeepSeek Harness 0.2.1-rc.2 及以上。无运行时依赖（Host 侧只用到�
 | 命令 | 作用 |
 |---|---|
 | `node scripts/check-templates.mjs` | 自测模板：JSON 信封不被特殊字符突破、占位符保留、原文往返一致 |
+| `node scripts/check-listing.mjs` | 核对 dsh-market 与 Discover 两个目录里是否已收录本插件；`--wait` 可轮询直到出现 |
 | `node scripts/make-index.mjs` | 生成插件市场索引（版本需已发布到 npm，可加 `--timestamp 0` 本地预览） |
 
 架构：Host 半（`index.js`）提供一条 SSE 路由与一条配置路由，并注册 `optimize_prompt` 工具；Client 半（`client.js`）在 `conversation.input.right`、`conversation.input.overlay`、`settings.general.item` 各注册一个入口，共享一份按会话隔离的状态。

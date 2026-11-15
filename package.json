@@ -62,6 +62,7 @@
   },
   "scripts": {
     "check:templates": "node scripts/check-templates.mjs",
+    "check:listing": "node scripts/check-listing.mjs",
     "make-index": "node scripts/make-index.mjs"
   },
   "keywords": [
